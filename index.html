@@ -18,36 +18,50 @@
 
     <form>
         <h2><strong><u>Don't forget to register with us to stay up to date with the latest and best content</u></strong></h2>
-        First Name: <input type="text"><br>
-        Last Name: <input type="text"><br>
-        Email: <input type="text"><br>
+        First Name: <input type="text" name="fname"><br>
+        Last Name: <input type="text" name="lname"><br>
+        Email: <input type="text" name="email"><br>
         Would you like to receive email notifactions?<br>
-        <input type="radio">Yes<br>
-        <input type="radio">No<br>
- 
- 
+        <input type="radio" name="opt_in" value="yes">Yes<br>
+        <input type="radio"name="opt_in" value="no">No<br>
+        <input type="submit" value="Register">
+        <input type="reset">
+        
      </form>
  
      <br>
+     <form>
+        Jump to Recipe:
+         <select name="recipes" onchange="location = this.value">
+             <option value=""></option>
+            <option value="fried_rice.html">Fried Rice</option>
+            <option value="yakisoba.html">Yakisoba</option>
+            <option value="Pesto.html">Pesto</option>
+            <option value="gnocchi.html">Gnocchi</option>
+            <option value="tomato_sauce.html">Tomato Sauce</option>
+            <option value="tikka_masala.html">Tikka Masala</option>
+            <option value="aloo_ghobi.html">Aloo Ghobi</option> 
+         </select>
+     </form>
      <br>
     
     <h2><u>Asian</u></h2>
-    <a href="fried_rice.html"><h3>Fried Rice</h3></a>
-    <a href="yakisoba.html"><h3>Yakisoba</h3></a>
+        <a href="fried_rice.html"><h3>Fried Rice</h3></a>
+        <a href="yakisoba.html"><h3>Yakisoba</h3></a>
      <br>
      <br>
 
     <h2><u>Italian</u></h2>
-    <a href="pesto.html"><h3>Pesto Sauce</h3></a>
-    <a href="gnocchi.html"><h3>Handmade Gnocchi</h3></a>
-    <a href="tomato_sauce.html"><h3>Tomato Sauce</h3></a>
+        <a href="pesto.html"><h3>Pesto Sauce</h3></a>
+        <a href="gnocchi.html"><h3>Handmade Gnocchi</h3></a>
+        <a href="tomato_sauce.html"><h3>Tomato Sauce</h3></a>
 
      <br>
      <br>
 
     <h2><u>Indian</u></h2>
-    <a href="tikka_masala.html"><h3>Tikka Masala</h3></a>
-    <a href="aloo_ghobi.html"><h3>Aloo Ghobi</h3></a>
+        <a href="tikka_masala.html"><h3>Tikka Masala</h3></a>
+        <a href="aloo_ghobi.html"><h3>Aloo Ghobi</h3></a>
 
 
 
