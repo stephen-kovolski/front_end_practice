@@ -4,11 +4,13 @@ body {
 }
 
 .formOne {
-    background-color: rgba(219, 215, 215, 0.479);
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
 }
 
 .p {
-    background-color: rgba(219, 215, 215, 0.466);
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.801);
     margin: auto;
     width: 50%;
     padding: 10px;
