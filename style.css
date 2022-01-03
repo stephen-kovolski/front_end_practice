@@ -28,6 +28,10 @@ body {
 
 .asian, .italian, .indian {
     text-align: center;
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
+    
 
+    
 }
 
