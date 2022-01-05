@@ -26,12 +26,31 @@ body {
 
 
 
-.asian, .italian, .indian {
+.asian {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
     text-align: center;
     background-color: rgba(219, 215, 215, 0.76);
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
     
-
-    
 }
 
+.italian {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
+}
+
+.indian {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
+
+}
