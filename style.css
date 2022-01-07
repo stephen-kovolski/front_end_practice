@@ -24,7 +24,11 @@ body {
     text-align: center;
 }
 
-
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .asian {
     margin: auto;
