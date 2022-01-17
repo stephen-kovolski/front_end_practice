@@ -68,7 +68,22 @@ body {
 
 }
 
+.submit_recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
 .dropDown {
-    border: 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    margin: 20px;
     text-align: center;
 }
