@@ -20,8 +20,6 @@ body {
     border: 10px;
     border-color: black;
     padding: 10px;
-    background-color: rgba(219, 215, 215, 0.76);
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.719);
 }
 
 .log_in {
