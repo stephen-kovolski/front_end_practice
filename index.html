@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <!--<li><img src="recipe_logo.png" class="logo"></li>-->
+            <li></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Jump to Recipe:<form class="dropDown">
+                    <select name="recipes" onchange="location = this.value">
+                    <option value=""></option>
+                    <option value="fried_rice.html">Fried Rice</option>
+                    <option value="yakisoba.html">Yakisoba</option>
+                    <option value="Pesto.html">Pesto</option>
+                    <option value="gnocchi.html">Gnocchi</option>
+                    <option value="tomato_sauce.html">Tomato Sauce</option>
+                    <option value="tikka_masala.html">Tikka Masala</option>
+                    <option value="aloo_ghobi.html">Aloo Ghobi</option> 
+                    </select>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <!--
     <div class="header">
         <div class="logo">
             <img src="recipe_logo.png" class="logo">
@@ -15,16 +38,8 @@
         <div class="log_in">
             <a href="logIn_register.html" >Login/Register</a>
 
-        </div>
+        </div> -->
     </div>
-    <div class="p">
-        <p>Through out this site you will find wonderful recipes sure to delight.  You will be able to find something for everyone on your list.  Whether its vegans, carnivores, gluten free, or people on a paleo diet.  Whatever you need, we will surely have something!</p>
-
-        <p>Please enjoy and feel free to click on the recipes below to start flexing your culinary muscle. Or share your own with the world!</p>
-    </div>
- 
-     <br>
-     <br>
     <div class="container">
     <div class="asian">
         <h2><u>Asian</u></h2>
@@ -45,24 +60,7 @@
         <h2><u>Indian</u></h2>
             <a href="tikka_masala.html"><h3>Tikka Masala</h3></a>
             <a href="aloo_ghobi.html"><h3>Aloo Ghobi</h3></a>
-    </div>
-
-    
-
-    <form class="dropDown">
-        Jump to Recipe:<br>
-            <select name="recipes" onchange="location = this.value">
-            <option value=""></option>
-            <option value="fried_rice.html">Fried Rice</option>
-            <option value="yakisoba.html">Yakisoba</option>
-            <option value="Pesto.html">Pesto</option>
-            <option value="gnocchi.html">Gnocchi</option>
-            <option value="tomato_sauce.html">Tomato Sauce</option>
-            <option value="tikka_masala.html">Tikka Masala</option>
-            <option value="aloo_ghobi.html">Aloo Ghobi</option> 
-            </select>
-        </form>
-    
+    </div>    
     <div class="submit_recipe">
         <a href="submitARecipe.html"><h3>Share a recipre of your own!</h3></a>
     </div>
