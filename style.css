@@ -4,11 +4,12 @@ body {
 }
 
 nav{
-    background-color: rgba(6, 117, 112, 0.925);
+    background-color: rgba(53, 12, 235, 0.774);
     height: 80px;
     width: 100%;
     padding: 5px;
     margin: 0px;
+    color: white;
 }
 
 
