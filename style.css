@@ -4,14 +4,23 @@ body {
 }
 
 nav{
-    background-color: rgba(53, 12, 235, 0.774);
+    background-color: rgba(219, 215, 215, 0.76);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.801);
     height: 80px;
     width: 100%;
     padding: 5px;
     margin: 0px;
+    list-style: none;
+}
+
+nav ul a{
     color: white;
 }
 
+nav li {
+    list-style: none;
+    color: cornsilk;
+}
 
 
 
